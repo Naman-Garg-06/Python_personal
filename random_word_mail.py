@@ -31,7 +31,7 @@ if (True):
 
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
-    smtpObj.login('garg.naman0607@gmail.com', 'highlyconfidential')
+    smtpObj.login('garg.naman0607@gmail.com', '*******')
 
     try:
         
